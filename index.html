@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./css/style.css">
+     <title>Stone,Paper and Scissors</title>
+</head>
+
+<body>
+     <div class="container">
+          <header>
+               <h1 class="heading">Rock, Paper and scissors</h1>
+          </header>
+          <div class="score-container">
+               <div class="scores">
+                    <h3 class="player">Player</h3>
+                    <span id="player-score" class="player-score">0</span>
+               </div>
+               <div class="scores">
+                    <h3 class="rounds">Rounds</h3>
+                    <span id="round" class="no-of-rounds">0</span>
+               </div>
+               <div class="scores">
+                    <h3 class="computer">Computer</h3>
+                    <span id="computer-score" class="computer-score">0</span>
+               </div>
+          </div>
+          <div class="game-container">
+               <div class="game-player">
+                    <img class="user-selection" src="./images/img1.png" alt="">
+                    <img class="user-selection" src="./images/img2.png" alt="">
+                    <img class="user-selection" src="./images/img3.png" alt="">
+               </div>
+               <div class="clicked-symbol">
+                    <img id="clicked-img-player" src="./images/user-circle-regular.svg" alt="">
+                    <div class="staus-submit">
+                         <div id="status">Select a symbol and submit it</div>
+                         <button id="submit">Submit</button>
+                    </div>
+                    <img id="clicked-img-computer" src="./images/laptop-solid.svg" alt="">
+               </div>
+               <div class="game-computer">
+                    <img src="./images/img1.png" alt="">
+                    <img src="./images/img2.png" alt="">
+                    <img src="./images/img3.png" alt="">
+               </div>
+          </div>
+
+     </div>
+
+     <script src="script.js"></script>
+</body>
+
+</html>
